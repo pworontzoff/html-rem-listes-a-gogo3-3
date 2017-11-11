@@ -98,6 +98,9 @@ Dans la section **«&nbsp;Aide&nbsp;»** ci-dessous se trouve quelques rappels u
 
 ![outline de li_dfn_info.html](./outlineLi_dfn_info.png)
     
+Non visibles via ces plans de document, on devra également structurer notre outline en utilisant les balises `header` et `footer` comme en-tête et pied de section principale.
+
+`header` englobera le titre principal et la navigation et `footer` englobera les 2 derniers paragraphes.
 
 ### Aide
 
