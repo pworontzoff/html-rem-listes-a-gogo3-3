@@ -27,7 +27,7 @@ Votre but lors de cette partie 3 sur 3 est
 - de faire aboutir cette page web vers un outline (i.e. un plan de document) clair et identique sur tous les navigateurs (vocaux y compris)
 - de valider votre outline
 - d'utiliser le &laquo;&nbsp;HTML5 précis & concis&nbsp;&raquo;.
-	
+    
 Une fois votre outline fini, il conviendra de valider vos fichiers et pour chaque erreur, il faudra non seulement la corriger, mais en plus utiliser le &laquo;&nbsp;précis & concis&nbsp;&raquo; pour vérifier et valider la correction de cette erreur.
 
 Cet énoncé présente l'outline à obtenir, donne quelques infos (aides) pour y arriver et propose quelques erreurs à faire et à corriger via validateur et le &laquo;&nbsp;précis & concis&nbsp;&raquo;.
@@ -97,7 +97,7 @@ Dans la section **«&nbsp;Aide&nbsp;»** ci-dessous se trouve quelques rappels u
 ### Outline de li_dfn_info.html
 
 ![outline de li_dfn_info.html](./outlineLi_dfn_info.png)
-	
+    
 
 ### Aide
 
@@ -125,26 +125,26 @@ Par exemple&nbsp;:
 
 ```html
     <body>
-    	<h1>Les Trolls</h1>
-    	<p>
-    		Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
-    	</p>
-    	<h2>Étymologie</h2>
-    	<p>
-    		Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
-    	</p>
-    	<h2>Folklore scandinave</h2>
-    	<p>
-    		Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
-    	</p>
-    	<h3>Troll et christianisation</h3>
-    	<p>
-    		Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
-    	</p>
-    	<h3>Évolution des croyances</h3>
-    	<p>
-    		Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
-    	</p>
+        <h1>Les Trolls</h1>
+        <p>
+            Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
+        </p>
+        <h2>Étymologie</h2>
+        <p>
+            Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
+        </p>
+        <h2>Folklore scandinave</h2>
+        <p>
+            Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
+        </p>
+        <h3>Troll et christianisation</h3>
+        <p>
+            Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
+        </p>
+        <h3>Évolution des croyances</h3>
+        <p>
+            Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
+        </p>
     </body>
 ```
 
@@ -163,7 +163,7 @@ Ces balises ouvrent des sections (explicites) avec leurs balises d'ouvertures et
 La balise `body` est quant à elle une &laquo;&nbsp;racine de sectionnement&nbsp;&raquo; Cela veut dire que cette balise introduit une nouvelle section explicite mais elle n'est pas considérée comme sectionnante puisqu'on ne peut pas démarrer plusieurs sections avec `body` (étant donné que c'est une balise unique).
 
 Attention, souvent amalgamée avec les 4 précédentes&nbsp;:
-	- `header` (une en-tête) et `footer` (un pied de page),
+    - `header` (une en-tête) et `footer` (un pied de page),
 sont en réalité des en-têtes et pieds de &laquo;&nbsp;pages&nbsp;&raquo; de la section courante (on devrait dire en-tête et pied de sections) mais n'introduisent pas de nouvelles sections&nbsp;! 
 
 Dès lors, le HTML5, fort de ses sections rendues explicites, permet d'utiliser un simple `h1` en début de chaque section.
@@ -172,43 +172,43 @@ En travaillant avec des sections explicites, on n'a plus besoin des `h2`, `h3`, 
 
 En HTML5, les niveaux de titres sont censés être gérés par les niveaux des sections explicites (un titre dans une sous-section est traité comme un sous-titre, etc.)
 
-Par exemple, une solution possible serait de découper notre document avec des sections explicites comme-ceci&nbsp;: 
+Par exemple, une solution possible serait de découper notre document précédent sur les Trolls avec des sections explicites comme-ceci&nbsp;: 
 
 
 ```html
     <body>
-    	<header> <!-- (non sectionnante !) -->
-	    	<h1>Les Trolls</h1>
-	    	<p>
-   				Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
-	    	</p>
-	    </header>
-	    <main> <!-- (non sectionnante !) -->
-	    	<section>
-	   			<h1>Étymologie</h1>
-   				<p>
-   					Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
-				</p>
-   			</section>
-   			<section>
-		    	<h1>Folklore scandinave</h1>
-   				<p>
-   					Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
-   				</p>
-   				<article>
-			    	<h1>Troll et christianisation</h1>
-   					<p>
-			    		Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
-			    	</p>
-			    </article>
-			    <article>
-			    	<h1>Évolution des croyances</h1>
-   					<p>
-   						Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
-   					</p>
-   				</article>
-    		</section>
-    	</main>
+        <header> <!-- (non sectionnante !) -->
+            <h1>Les Trolls</h1>
+            <p>
+                Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
+            </p>
+        </header>
+        <main> <!-- (non sectionnante !) -->
+            <section>
+                <h1>Étymologie</h1>
+                <p>
+                    Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
+                </p>
+            </section>
+            <section>
+                <h1>Folklore scandinave</h1>
+                <p>
+                    Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
+                </p>
+                <article>
+                    <h1>Troll et christianisation</h1>
+                    <p>
+                        Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
+                    </p>
+                </article>
+                <article>
+                    <h1>Évolution des croyances</h1>
+                    <p>
+                        Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
+                    </p>
+                </article>
+            </section>
+        </main>
     </body>
 ```
 
@@ -232,38 +232,38 @@ Dans notre exemple, voici simplement la solution à notre problème précédent&
 
 ```html
     <body>
-    	<header> <!-- (non sectionnante !) -->
-	    	<h1>Les Trolls</h1>
-	    	<p>
-   				Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
-	    	</p>
-	    </header>
-	    <main> <!-- (non sectionnante !) -->
-	    	<section>
-	   			<h2>Étymologie</h2>
-   				<p>
-   					Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
-				</p>
-   			</section>
-   			<section>
-		    	<h2>Folklore scandinave</h2>
-   				<p>
-   					Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
-   				</p>
-   				<article>
-			    	<h3>Troll et christianisation</h3>
-   					<p>
-			    		Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
-			    	</p>
-			    </article>
-			    <article>
-			    	<h3>Évolution des croyances</h3>
-   					<p>
-   						Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
-   					</p>
-   				</article>
-    		</section>
-    	</main>
+        <header> <!-- (non sectionnante !) -->
+            <h1>Les Trolls</h1>
+            <p>
+                Un troll est un être de la mythologie nordique, incarnant les forces naturelles ou la magie, caractérisé principalement par son opposition aux hommes et aux dieux. Ce troll est souvent assimilé aux Jötunns, les « Géants » de cette mythologie.
+            </p>
+        </header>
+        <main> <!-- (non sectionnante !) -->
+            <section>
+                <h2>Étymologie</h2>
+                <p>
+                    Le mot « troll » apparaît dans la langue française au début du XVIIe siècle, quand Pierre Le Loyer évoque des esprits norvégiens appelés « Trollen » ou « Drolles ».
+                </p>
+            </section>
+            <section>
+                <h2>Folklore scandinave</h2>
+                <p>
+                    Le troll du folklore concerne toutes les légendes et croyances populaires relatives au troll.
+                </p>
+                <article>
+                    <h3>Troll et christianisation</h3>
+                    <p>
+                        Les anciens dieux et les rites paganistes ont été remplacés par des croyances pour de nouvelles créatures païennes : trolls, jötnars, elfes… Et parmi celles-ci, le troll était une créature très présente dans les légendes. Il était aussi le plus important opposant à la christianisation : « les forces du chaos, les ennemis de Dieu » sont ainsi symbolisées par le troll.
+                    </p>
+                </article>
+                <article>
+                    <h3>Évolution des croyances</h3>
+                    <p>
+                        Il est difficile de déterminer avec certitude l'évolution des légendes et croyances populaires, entre le Moyen Âge et l'Époque moderne, en l'absence de traces écrites suffisantes. Les spécialistes, historiens et folkloristes fondent leurs hypothèses à partir de l'étude philologique des textes littéraires norrois et ultérieurs.
+                    </p>
+                </article>
+            </section>
+        </main>
     </body>
 ```
 
