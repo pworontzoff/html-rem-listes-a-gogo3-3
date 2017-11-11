@@ -107,19 +107,19 @@ Le HTML5 est censé conserver le HTML4. A savoir qu'un document HTML4 est aussi 
 
 Cela n'empêche pas qu'HTML5 ajoute des choses. Notamment, il rend explicite l'usage des sections, utilisés par les navigateurs pour établir les plans de documents.
 
-Les plans de documents sont de véritables &laquo;&nbsp;tables des matières cachée&nbsp;&raquo; qui se cachent dans chaque document au sein de vos balises HTML4/5.
+Les plans de documents sont de véritables &laquo;&nbsp;tables des matières cachées&nbsp;&raquo; dans chaque page Web, au sein de vos balises HTML4/5.
 
-Un plan de document permet aux Internaute utilisant des navigateurs vocaux de s'y retrouver dans la page Web.
+Un plan de document permet aux Internautes utilisant des navigateurs vocaux de s'y retrouver dans la page Web.
 
 Or, une part importante de la qualité d'accessibilité d'une page Web réside dans la clarté de ce plan de document.
 
 Des outils (comme **headings map** sur FireFox) permettent de les visualiser et c'est très utile, car on se rend compte immédiatement de la clarté ou non de la découpe de la page.
 
 Pour l'HTML4 (et donc 5 aussi) les plans de documents sont construits sur bases de sections implicites qui sont construites via les niveaux de titres. Ainsi,
-	- une balise `h1` ouvre une première section implicite qui se referme au prochain h1
-	- une balise `h2` ouvre une sous-section implicite qui se referme au prochain h2
-	- une balise `h3` ouvre une sous-sous-section implicite qui se referme au prochain h3
-	- &hellip;
+- une balise `h1` ouvre une première section implicite qui se referme au prochain h1
+- une balise `h2` ouvre une sous-section implicite qui se referme au prochain h2
+- une balise `h3` ouvre une sous-sous-section implicite qui se referme au prochain h3
+- &hellip;
 
 Par exemple&nbsp;:
 
