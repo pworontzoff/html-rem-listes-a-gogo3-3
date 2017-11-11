@@ -282,7 +282,27 @@ Une fois que vos plans de documents sont corrects, c'est-à-dire sans titres man
 
 Pour chaque erreur, il faudra consulter le précis et concis pour vérifier que ça concorde.
 
-Lorsque c'est fait, voici encore quelques erreurs de validation à effectuer pour s'entrainer à l'utilisation du précis et concis (et du validateur)&nbsp;:
+Lorsque c'est fait, voici encore quelques erreurs de validation à effectuer dans la page **index.html** pour s'entrainer à l'utilisation du précis et concis (et du validateur)&nbsp;:
+
+- ajouter dans le `h3` une liste ordonnée avec un item &laquo;&nbsp;Bases&nbsp;&raquo; et un item &laquo;&nbsp;Exemples&nbsp;&raquo;&nbsp;;
+
+- déplacer la liste ordonnée (&laquo;&nbsp;une rapide description de l'informatique et des techniques&hellip;&nbsp;&raquo;) dans le paragraphe qui le précède&nbsp;;
+
+- déplacer le paragraphe &laquo;&nbsp;Bienvenue sur ce site présentant&nbsp;&raquo; comme premier enfant de la liste ordonnée qui le suit (donc juste avant le premier li de cette liste ordonnée)&nbsp;;
+
+- ajouter une balise `hr` à la fin dans la balise `h3`.
+
+- supprimer l'attribut `src` de la balise `img`.
+
+- supprimer l'attribut `alt` de la balise `img`.
+
+- faire un lien dans un lien&nbsp;: comme pour faire en sorte que le mot &laquo;&nbsp;github&nbsp;&raquo; du lien vers l'énoncé mène au site `www.github.com`.
+
+Lorsque c'est fait, voici encore quelques erreurs de validation à effectuer dans la page **bases.html** pour s'entrainer à l'utilisation du précis et concis (et du validateur)&nbsp;:
+
+- entourer d'un paragraphe (balise `p`) le texte &laquo&nbsp;er&nbsp;&raquo; d'une balise `sup`&nbsp;;
+
+- enlever `<ol>` et `</ol>` de la liste qui suit la balise `<h3>L'électronique</h3>`&nbsp;;
 
 * * *
 
