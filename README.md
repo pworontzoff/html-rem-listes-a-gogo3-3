@@ -22,11 +22,11 @@ Les fichiers donnés correspondent à la solution de la partie 2 (disponible sur
 
 Il est donc tout à fait possible de réaliser cette partie 3 sans avoir fait la partie 2 (ni la partie 1).
 
-Votre but lors de cette partie 2 sur 3 est 
+Votre but lors de cette partie 3 sur 3 est 
 
-	- de faire aboutir cette page web vers un outline (i.e. un plan de document) clair et identique sur tous les navigateurs (vocaux y compris)
-	- de valider votre outline
-	- d'utiliser le &laquo;&nbsp;HTML5 précis & concis&nbsp;&raquo;.
+- de faire aboutir cette page web vers un outline (i.e. un plan de document) clair et identique sur tous les navigateurs (vocaux y compris)
+- de valider votre outline
+- d'utiliser le &laquo;&nbsp;HTML5 précis & concis&nbsp;&raquo;.
 	
 Une fois votre outline fini, il conviendra de valider vos fichiers et pour chaque erreur, il faudra non seulement la corriger, mais en plus utiliser le &laquo;&nbsp;précis & concis&nbsp;&raquo; pour vérifier et valider la correction de cette erreur.
 
