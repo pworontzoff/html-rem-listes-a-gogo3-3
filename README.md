@@ -155,8 +155,8 @@ Conduit à ce plan de document&nbsp;:
 Qui est le même pour un navigateur HTML5 car il fonctionne toujours avec les sections implicites.
 
 Par contre l'HTML5 introduit 4 nouvelles balises dites &laquo;&nbsp;sectionnantes&nbsp;&raquo; qui sont, assez logiquement&nbsp;:
-	- `section` (une section de page) et `article` (un article au contenu autonome), mais aussi
-	- `nav` (une section dédiée à la navigation) et `aside` (un section dédiée à de l'information complémentaire).
+- `section` (une section de page) et `article` (un article au contenu autonome), mais aussi
+- `nav` (une section dédiée à la navigation) et `aside` (un section dédiée à de l'information complémentaire).
 
 Ces balises ouvrent des sections (explicites) avec leurs balises d'ouvertures et referment ces sections avec leurs balises de fermetures.
 
